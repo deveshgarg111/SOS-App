@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="beautify.css">
+</head>
+<body>
+	<div class="backg">
+		<table>
+			<tr>
+				<td colspan="3"><input type="text" name="display" id="display" maxlength="15" disabled> </td>
+			</tr>
+			<tr>
+				<td><input class="buton buton1" type="button" name="one" value="1 [@.?]" onclick="AddDigit('1')"></td>
+				<td><input class="buton buton2" type="button" name="two" value="2 [A,B,C]" onclick="AddDigit('2')"></td>
+				<td><input class="buton buton3" type="button" name="three" value="3 [D,E,F]" onclick="AddDigit('3')"></td>
+			</tr>
+			<tr>
+				<td><input class="buton buton4" type="button" name="four" value="4 [G,H,I]" onclick="AddDigit('4')"></td>
+				<td><input class="buton buton5" type="button" name="five" value="5 [J,K,L]" onclick="AddDigit('5')"></td>
+				<td><input class="buton buton6" type="button" name="six" value="6 [M,N,O]" onclick="AddDigit('6')"></td>
+			</tr>
+			<tr>
+				<td><input class="buton buton7" type="button" name="seven" value="7 [P,Q,R,S]" onclick="AddDigit('7')"></td>
+				<td><input class="buton buton8" type="button" name="eight" value="8 [T,U,V]" onclick="AddDigit('8')"></td>
+				<td><input class="buton buton9" type="button" name="nine" value="9 [W,X,Y,Z]" onclick="AddDigit('9')"></td>
+			</tr>
+			<tr>
+				<td><input class="buton buton*" type="button" name="star" value="* [Send]" onclick="Send()"></td>
+				<td><input class="buton buton0" type="button" name="zero" value="0 [Zero]" onclick="AddDigit('0')"></td>
+				<td><input class="buton buton#" type="button" name="hash" value="# [Space]" onclick="AddDigit(' ')"></td>
+			</tr>
+			<tr>
+				<td><input class="buton butonb" type="button" name="backspace" value="Back    ." onclick="onPressBackSpace()"></td>	
+				<td><input class="buton butonr" type="button" name="reset" value="Reset    ." onclick="document.getElementById('display').value=''"></td>
+				<td><input class="noclick" type="button" name="info" value="0 ' ' <code>"></td>
+			</tr>
+		</table>
+	</div>
+	<script src="script.js">
+	</script>
+
+</body>
+</html>

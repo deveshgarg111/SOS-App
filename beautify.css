@@ -1,0 +1,75 @@
+body, html
+{
+	height: 100%;
+	margin: 0;
+}
+.backg
+{
+	background-image: url("img2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+table
+{
+	padding-left:700px;
+	padding-top: 120px;
+	height: 150px;
+	width: 200px;
+}
+#display
+{
+	width: 370px;
+	height: 30px;
+    color: black;
+}
+.buton {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    white-space: normal;
+    width: 100px;
+}
+.buton:hover
+{
+	background-color: #555555;
+    color: white;
+}
+.butonb
+{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.butonr
+{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.noclick
+{
+	pointer-events: none;
+	background-color: #f44336;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    white-space: normal;
+    width: 100px;
+}
